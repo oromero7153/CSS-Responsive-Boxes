@@ -5,7 +5,7 @@ body {
 .container{
   display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
     align-content: normal;
     row-gap: 12px;
 }
@@ -29,6 +29,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 25px;
+  column-gap: 10px;
 }
 .a{
   width: 90%;
@@ -41,6 +42,5 @@ body {
 .c{
   width: 25%;
   height: 70%;
-  margin-left: 2%;
 }
 }
