@@ -2,6 +2,7 @@ body {
   background: papayawhip;
   text-align: center;
   font-size: 2em;
+  margin-bottom: 25px;
 }
 .container{
   display: flex;
