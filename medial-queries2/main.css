@@ -59,20 +59,22 @@ body {
 .broad{
   display: flex;
   flex-direction: column;
-  width: 40vw;
   min-height: 60vh;
 }
 .b{
-  max-width: 60vw;
+  flex-direction: row;
+  width: 60vw;
+  align-self: flex-start;
 }
 .f{
   width: 20vw;
   height: 60vh;
-  align-self: self-start;
+  align-self: flex-end;
 }
 .nonsense{
   display: flex;
   flex-direction: row;
   width: 60vw;
+  column-gap: 10px;
 }
 }
