@@ -23,22 +23,24 @@ body {
   flex-grow: 1;
 }
 
-@media (min-width 600px){ 
+@media (min-width: 600px){ 
   .container{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 25px;
 }
 .a{
   width: 90%;
   height: 30%;
 }
 .b{
-  width: 60%;
+  width: 72%;
   height: 70%;
 }
-.b{
-  width: 40%;
+.c{
+  width: 25%;
   height: 70%;
+  margin-left: 2%;
 }
 }
