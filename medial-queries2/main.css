@@ -55,6 +55,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  width: 80vw;
 }
 .broad{
   display: flex;
@@ -69,7 +70,6 @@ body {
 .f{
   width: 20vw;
   height: 60vh;
-  align-self: flex-end;
 }
 .nonsense{
   display: flex;
