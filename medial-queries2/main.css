@@ -1,3 +1,34 @@
 body {
   background: papayawhip;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+.a{
+  background-color: teal;
+  width: 80vw;
+  height: 40vh;
+}
+.b{
+  background-color: aliceblue;
+  width: 80vw;
+}
+.c{
+  background-color: #264b75;
+  width: 80vw;
+}
+.d{
+  background-color: #773535;
+  width: 80vw;
+}
+.e{
+  background-color: #e3b036;
+  width: 80vw;
+}
+.f{
+  background-color: #74446f;
+  width: 80vw;
+}
