@@ -10,8 +10,8 @@ body {
   flex-wrap: wrap;
   height: 100vh;
   justify-content: center;
-  row-gap:5px;
-  column-gap: 15px;
+  row-gap:10px;
+  column-gap: 10px;
 }
 .a{
   background-color: teal;
@@ -43,4 +43,50 @@ body {
   background-color: #74446f;
   width: 80vw;
   height: 20vh;
+}
+/* desktop version */
+@media(min-width 600px){
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    row-gap:5px;
+    column-gap: 15px;
+  }
+  .a{
+    background-color: teal;
+    width: 80vw;
+    height: 20vh;
+  }
+  .b{
+    background-color: aliceblue;
+    width: 60vw;
+    height: 40vh;
+  }
+  .c{
+    background-color: #264b75;
+    width: 15vw;
+    height: 20vh;
+  }
+  .d{
+    background-color: #773535;
+    width: 15vw;
+    height: 20vh;
+  }
+  .e{
+    background-color: #e3b036;
+    width: 15vw;
+    height: 20vh;
+  }
+  .c .d .e{
+    align-self: flex-start;
+  }
+  .f{
+    background-color: #74446f;
+    width: 20vw;
+    height: 60vh;
+    align-self: flex-end; 
+}
 }
