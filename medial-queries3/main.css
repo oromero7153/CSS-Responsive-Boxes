@@ -82,17 +82,20 @@ body {
   align-content: center;
   height: 100vh;
   }
+  .a{
+    width: 100vw;
+  }
   .bcd{
       flex-direction: row;
-      width: 50vw;
+      
   }
   .efg{
     flex-direction: row;
-    width: 50vw;
+   
 }
 .h{
   background-color: #eeafd4;
   width: 20vw;
-  height: 40vh;
+  height: 41vh;}
   
 }
