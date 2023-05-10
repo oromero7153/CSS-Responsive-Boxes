@@ -64,20 +64,3 @@ body {
   flex-direction: row;
   column-gap: 10px;
 }
-@media (min-width: 600px){
-  .container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    row-gap: 10px;
-    column-gap: 10px;
-    align-content: center;
-    height: 100vh;
-  }
-  .bcd, .efg{
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
-  }
-}
